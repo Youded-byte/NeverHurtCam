@@ -1,0 +1,12 @@
+{
+    "compatibilityLevel": "JAVA_8",
+    "minVersion": "0.7",
+    "package": "me.youded.neverhurtcam.mixin",
+    "mixins": [
+      "ForgeMixin",
+      "ForgeMixinOld"
+    ],
+    "verbose": true,
+    "client": [
+    ]
+  }

@@ -1,0 +1,24 @@
+{
+    "schemaVersion": 1,
+    "id": "neverhurtcam",
+    "version": "1.0.0",
+    "name": "NeverHurtCam",
+    "description": "This mod removes the camera shake effect when being hurt.",
+    "authors": [
+      "You_ded"
+    ],
+    "contact": {
+      "homepage": "https://github.com/youded-byte/NeverHurtCam",
+      "issues": "https://github.com/youded-byte/NeverHurtCam/issues"
+    },
+    "environment": "*",
+    "mixins": [
+      "mixins.neverhurtcam.fabric.json"
+    ],
+    "depends": {
+      "fabricloader": ">=0.10.2",
+      "fabric": "*",
+      "minecraft": "*"
+    }
+  }
+  

@@ -1,0 +1,30 @@
+plugins {
+    id 'com.github.johnrengelman.shadow' version '7.1.0'
+    id 'java'
+}
+
+sourceCompatibility = 8
+targetCompatibility = 8
+
+group 'me.youded'
+version '1.0'
+
+repositories {
+    mavenCentral()
+    maven { url = "https://repo.spongepowered.org/repository/maven-public/" }
+}
+
+dependencies {
+    implementation group:  'org.ow2.asm', name: 'asm', version: '9.2'
+    implementation group:  'org.ow2.asm', name: 'asm-tree', version: '9.2'
+    implementation group: 'org.spongepowered', name: 'mixin', version: '0.8.5-SNAPSHOT'
+}
+
+jar{
+    manifest{
+        attributes("Premain-Class": "me.youded.neverhurtcam.Agent")
+        attributes("Can-Retransform-Classes": true)
+    }
+}
+
+build.dependsOn shadowJar       
