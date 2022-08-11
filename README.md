@@ -7,7 +7,7 @@ It does NOT work as a Forge mod as of now.
 
 * On Fabric you can put it in your mods folder.
 * On Forge you must (for now) follow the same instructions as for vanilla Minecraft.
-* On vanilla Minecraft you can add the Java argument -javaagent:PATHTONEVERHURTCAM. You may need to add \\ as separator instead of just \.
+* On vanilla Minecraft you can add the Java argument -javaagent:PATHTONEVERHURTCAM. You may need to add two \\\\ as separator instead of just a single \\ because of how         parameters are passed.
 * On Lunar Client, you can use [lunar-client-qt](https://github.com/Youded-byte/lunar-client-qt) and add it as an agent.
 
 ## Customisation
